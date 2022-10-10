@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Abel', sans-serif;
+    background-image: url(/Img/FONDO2.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+li{
+    display: inline;
+    margin: 5px 15px 5px 15px;
+    font-size: 16px;
+}
+footer{
+    background-color: rgba(210, 157, 8);
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    margin-top: auto;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 2%;
+    background-color: whitesmoke;
+}
+nav{
+    display: flex;
+    justify-content:flex-start;    
+    height: 100vh;
+    width: 100%;
+    height: 30px;
+    position: fixed;
+    left: 0px;
+    top:58px;
+    background-color: #D29D08;
+    padding-left: 50px;
+    z-index: 1;
+    text-decoration: none;
+    box-shadow: none;
+}
+span{
+    padding: 10px;
+}
+label{
+
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    color: #23000F;
+    cursor:pointer;
+
+}
+ul {
+    display: flex;
+}
+h5 {
+    display: flex;
+    font-size: 0.5em;
+    margin-block-start: 1em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.menu{
+    position: fixed;
+    width: 100%;
+    height: 62px;
+    left: 0px;
+    top: 0px;
+    background: rgba(210, 157, 8, 0.60);
+    z-index: 5;
+}
+.barra_busqueda{
+    width: 30%;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    height: 20px;
+    margin-top: 20px;
+    margin-left: 50px;
+    background: #D3D3D3;
+    border-radius: 27px;
+    border-style: hidden;
+    }
+.logo{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 547px;
+    width: auto;
+    height: auto;
+    background: url(logo.png);
+    filter: drop-shadow(0px 8px 12px rgba(0, 0, 0, 0.25));
+    z-index: -2;
+    margin-top: 80px;
+}
+.ver__mapa{
+    background-color:  rgba(199, 196, 39, 0.486);
+    display: flex;
+    padding-left: 50px;
+}
+
+/*plantas de interior*/
+.titulo__h1{
+    margin-top: 80px;
+    text-align: center;
+    font-size: 64px;
+    color: white;
+    background-color: rgba(196, 100, 112, 0.486);
+    background-size: cover;
+    background-image:url(/Img/Fondologo.png);
+    background-position: center;
+}
+.titulo_h2{
+    display: flex;
+    margin-top: 50px;
+    padding-left: 50px;
+    text-align:left;
+    font-size: 50px;
+    color: rgb(29, 28, 28);
+    background-color: rgba(196, 100, 112, 0.486);
+}
+.titulo_h2__interior{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding-left: 50px;
+    text-align:left;
+    font-size: 50px;
+    color: rgb(29, 28, 28);
+    background-color: rgba(248, 209, 35, 0.452);
+}
+.titulo__h1__macetas{
+    margin-top: 85px;
+    text-align: center;
+    font-size: 64px;
+    color: white;
+    background-color: rgba(199, 196, 39, 0.486);
+    background-size: cover;
+}
+.titulos__luz{
+    display:list-item;
+    align-content:flex-start;
+    font-size: 36px;
+}
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: flex-start;
+    justify-content: flex-start;
+}
+.galeria__image{
+    margin: 2%;
+    width: 20%;
+    max-width: 500px;
+    opacity: 50%;
+    border-radius: 5%;
+}
+.galeria__image:hover{
+    opacity: 100%;
+}
+.caracteristicas__plantas{
+    text-align: left;
+    font-size:small;
+}
+
+/*contacto*/
+.titulo__form{
+    font-size: x-large;
+    text-align: center;
+    background-color: whitesmoke;
+}
+.mapa__ubicacion{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 15px;
+    background-color: whitesmoke;
+}
+.formulario{
+    margin-top: 12%;
+}
+.formulario__cuerpo1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    border-radius: 10px;
+    font-size: larger;
+}
+.formulario__cuerpo2{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    padding: 30px;
+    border-radius: 10px;
+    font-size: larger;
+    list-style: none;
+}
+
+/*Macetas*/
+.galeria__macetas{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: flex-start;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.galeria__macetas__macetas{
+    margin: 2%;
+    width: 20%;
+    max-width: 500px;
+    opacity: 50%;
+    border-radius: 5%;
+}
+
+/*ID*/
+#boton__mapa{
+    font-style: italic;
+    margin-bottom: 20px;
+    text-shadow: #23000F;
+    border-style: hidden;
+    font-size: small;
+    margin-left: 10px;
+    background-color: rgba(210, 157, 8, 0.60);
+    cursor: pointer;
+}
+
+#boton_formulario{
+    margin: 5px;
+    border-style: none;
+    border-width: 0;
+    border-color: none;
+    box-sizing: content-box;
+    color:#23000F;
+
+}
